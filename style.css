@@ -1,0 +1,103 @@
+.germany {
+    border: 1px black solid;
+}
+
+div #top {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+div #middle {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+div #bottom {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+
+
+#germany:hover #top {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+
+#germany:hover #middle {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+#germany:hover #bottom {
+    width: 100%;
+    height: 50px;
+    background-color: darkgreen;
+}
+
+#france {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    width: 33%;
+    height: 150px;
+    background-color: blue;
+}
+
+#centre {
+    width: 33%;
+    height: 150px;
+    background-color: white;
+}
+
+#right {
+    width: 33%;
+    height: 150px;
+    background-color: red;
+}
+
+#france:hover #left {
+    width: 33%;
+    height: 150px;
+    background-color: green;
+}
+
+#france:hover #centre {
+    width: 33%;
+    height: 150px;
+    background-color: white;
+}
+
+#france:hover #right {
+    width: 33%;
+    height: 150px;
+    background-color: orange;
+}
+
+#japan {
+    border: 1px black solid;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#japan #dot {
+    display: flex;
+    width: 75px;
+    height: 75px;
+    border: red 2px solid;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
